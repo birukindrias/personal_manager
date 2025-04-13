@@ -22,3 +22,7 @@ class AppServiceProvider extends ServiceProvider
         //
     }
 }
+
+// use App\Http\Livewire\Category\CategoryList;
+
+// Route::get('/categories', CategoryList::class)->name('category.list');
